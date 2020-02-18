@@ -15,7 +15,7 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import javax.inject.Inject
 
-class RetrofitRepository {
+class  RetrofitRepository {
     lateinit var apiComponent: APIComponent
     var postInfoMutableList: MutableLiveData<List<PostInfo>> = MutableLiveData()
     @Inject
